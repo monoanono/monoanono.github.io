@@ -4,7 +4,7 @@
   <id>https://monoanono.github.io/</id>
   <title>내 개발 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-02-26T17:16:41+09:00</updated>
+  <updated>2026-02-26T17:20:27+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://monoanono.github.io/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title>첫 번째 글</title>
     <link href="https://monoanono.github.io/posts/my-first-post/" rel="alternate" type="text/html" title="첫 번째 글" />
-    <published>2026-02-26T00:00:00+09:00</published>
+    <published>2026-02-26T17:20:00+09:00</published>
   
-    <updated>2026-02-26T00:00:00+09:00</updated>
+    <updated>2026-02-26T17:20:00+09:00</updated>
   
     <id>https://monoanono.github.io/posts/my-first-post/</id>
     <content type="text/html" src="https://monoanono.github.io/posts/my-first-post/" />
