@@ -226,3 +226,9 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+sidebar:
+  show_about: true
+  show_categories: true
+  show_tags: true
+  show_recent_posts: true
