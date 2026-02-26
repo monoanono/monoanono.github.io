@@ -4,7 +4,7 @@
   <id>https://monoanono.github.io/</id>
   <title>내 개발 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-02-26T17:08:40+09:00</updated>
+  <updated>2026-02-26T17:14:33+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://monoanono.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>첫 번째 글</title>
+    <link href="https://monoanono.github.io/posts/my-first-post/" rel="alternate" type="text/html" title="첫 번째 글" />
+    <published>2026-02-26T00:00:00+09:00</published>
+  
+    <updated>2026-02-26T00:00:00+09:00</updated>
+  
+    <id>https://monoanono.github.io/posts/my-first-post/</id>
+    <content type="text/html" src="https://monoanono.github.io/posts/my-first-post/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Kubernetes" />
+    
+  
+
+  <summary>안녕하세요! 첫 번째 블로그 글입니다.</summary>
+
+  </entry>
 
 </feed>
 
