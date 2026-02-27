@@ -4,7 +4,7 @@
   <id>https://monoanono.github.io/</id>
   <title>Yoon. Pumpkin 기술 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-02-26T17:27:16+09:00</updated>
+  <updated>2026-02-27T17:12:28+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://monoanono.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>K8S 스터디</title>
+    <link href="https://monoanono.github.io/posts/K8S-%EC%8A%A4%ED%84%B0%EB%94%94/" rel="alternate" type="text/html" title="K8S 스터디" />
+    <published>2026-02-27T17:08:00+09:00</published>
+  
+    <updated>2026-02-27T17:08:00+09:00</updated>
+  
+    <id>https://monoanono.github.io/posts/K8S-%EC%8A%A4%ED%84%B0%EB%94%94/</id>
+    <content type="text/html" src="https://monoanono.github.io/posts/K8S-%EC%8A%A4%ED%84%B0%EB%94%94/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="\[Blog," />
+    
+    <category term="Kubernetes]" />
+    
+  
+
+  <summary># K8S 스터디    - 참고 :  Minikube 활용 K8s 스터디      - https://subicura.com/k8s/prepare/      - https://subicura.com/k8s/guide/#%E1%84%80%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3  ### 내용 정리  ![Image](https://github.com/user-attachments/assets/09d891dc-7f62-4ac9-b63a-6328c2ed7d5b)  ![Image](https://github.com/user-attachments/assets/8aade5ae-3c11-4c24-85c3-787a76c621aa)  ![Image](https://github.com...</summary>
+
+  </entry>
 
   
   <entry>
