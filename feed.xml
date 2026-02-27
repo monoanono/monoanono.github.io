@@ -4,7 +4,7 @@
   <id>https://monoanono.github.io/</id>
   <title>Yoon. Pumpkin 기술 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-02-27T17:12:28+09:00</updated>
+  <updated>2026-02-27T17:18:41+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://monoanono.github.io/</uri>
@@ -41,6 +41,32 @@
   
 
   <summary># K8S 스터디    - 참고 :  Minikube 활용 K8s 스터디      - https://subicura.com/k8s/prepare/      - https://subicura.com/k8s/guide/#%E1%84%80%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3  ### 내용 정리  ![Image](https://github.com/user-attachments/assets/09d891dc-7f62-4ac9-b63a-6328c2ed7d5b)  ![Image](https://github.com/user-attachments/assets/8aade5ae-3c11-4c24-85c3-787a76c621aa)  ![Image](https://github.com...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>minikube 스터디</title>
+    <link href="https://monoanono.github.io/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/" rel="alternate" type="text/html" title="minikube 스터디" />
+    <published>2026-02-26T17:20:00+09:00</published>
+  
+    <updated>2026-02-26T17:20:00+09:00</updated>
+  
+    <id>https://monoanono.github.io/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/</id>
+    <content type="text/html" src="https://monoanono.github.io/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Kubernetes" />
+    
+  
+
+  <summary>minikube 스터디     다운로드 링크 : https://github.com/kubernetes/minikube/releases/latest/download/minikube-installer.exe   1. minikube 설치     Hyper-V 활성화            관리자 권한으로 CMD 에서 명령어 실행           DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V         minikube  버전 확인     minikube version                     minikube 시작 (Hyper-V)   minikube start --driver=hyperv           minikube 상태...</summary>
 
   </entry>
 

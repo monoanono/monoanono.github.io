@@ -10,6 +10,15 @@
   },
   
   {
+    "title": "minikube 스터디",
+    "url": "/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/",
+    "categories": "Blog, Kubernetes",
+    "tags": "GitHub, DevOps",
+    "date": "2026-02-26 17:20:00 +0900",
+    "content": "minikube 스터디     다운로드 링크 : https://github.com/kubernetes/minikube/releases/latest/download/minikube-installer.exe   1. minikube 설치     Hyper-V 활성화            관리자 권한으로 CMD 에서 명령어 실행           DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V         minikube  버전 확인     minikube version                     minikube 시작 (Hyper-V)   minikube start --driver=hyperv           minikube 상태 확인     minikube status                      minikube 접속하기            로컬(윈도우) -&gt; minikube 접속           minikube ssh    - Hyper-V 콘솔에서 접속하기   - 가상컴퓨터 -&gt; 우클릭 -&gt; 연결   - OS 계정 : root (초기 설정 패스워드 미입력, 계정명 입력하고 엔터 시 접속 가능) &lt;img width=\"959\" height=\"516\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/56281db3-72da-4af0-8bc2-033f6224e658\" /&gt; &lt;img width=\"638\" height=\"505\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4c002352-41f3-400e-8585-90128b91a722\" /&gt;     2. kubectl 설치    로컬(윈도우) 에 kubectl 설치 (26.02.25 부 최신 버전 : kubectl 1.35.0 )   참고 : https://kubernetes.io/ko/docs/tasks/tools/install-kubectl-windows/    curl.exe -LO \"https://dl.k8s.io/release/v1.35.0/bin/windows/amd64/kubectl.exe\"       minikube 설치 시 함께 포함된 kubectl.exe 를 CMD에서 구동 해도 된다.         kubectl 버전 확인   kubectl version --client         kubectl 명령어로 minikube cluster ip 확인   kubectl describe service"
+  },
+  
+  {
     "title": "첫 번째 글",
     "url": "/posts/my-first-post/",
     "categories": "Blog, Kubernetes",
