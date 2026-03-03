@@ -1,6 +1,6 @@
 ---
 title: "[NCP] NCP CLI 활용 일일 서버이미지 백업 설정"
-date: 2026-03-03 14:56:00 +0900
+date: 2026-03-03 15:05:00 +0900
 categories: [Blog, NCP]
 tags: [NCP, DevOps, Cloud]
 ---
