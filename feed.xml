@@ -4,7 +4,7 @@
   <id>https://monoanono.github.io/</id>
   <title>Yoon. Pumpkin 기술 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-03-03T13:41:04+09:00</updated>
+  <updated>2026-03-03T14:24:21+09:00</updated>
   <author>
     <name>Yoon. Pumpkin</name>
     <uri>https://monoanono.github.io/</uri>
@@ -41,6 +41,32 @@
   
 
   <summary>Prometheus 스터디     참고 :            https://prometheus.io/docs/introduction/overview/       https://willseungh0.tistory.com/193             1. Prometeus 아키텍처     2. Prometeus 구성 요소  ### 2.1. Exporter / Job    모니터링 대상의 Metric 데이터를 수집하고 중앙 집중 서버인 Prometheus Server가 Metrics 데이터를 가져 갈 수 있도록 API Endpoint 을 제공            node-exporter: 노드의 CPU, Memory, Network bandwidth 등 metrics 정보를 수집       jmx-expo...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Prometheus Stand Alone VS Operator 비교</title>
+    <link href="https://monoanono.github.io/posts/Prometheus-Stand-Alone-VS-Operator-%EB%B9%84%EA%B5%90/" rel="alternate" type="text/html" title="Prometheus Stand Alone VS Operator 비교" />
+    <published>2026-03-03T13:37:00+09:00</published>
+  
+    <updated>2026-03-03T13:37:00+09:00</updated>
+  
+    <id>https://monoanono.github.io/posts/Prometheus-Stand-Alone-VS-Operator-%EB%B9%84%EA%B5%90/</id>
+    <content type="text/html" src="https://monoanono.github.io/posts/Prometheus-Stand-Alone-VS-Operator-%EB%B9%84%EA%B5%90/" />
+    <author>
+      <name>Yoon. Pumpkin</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Prometheus" />
+    
+  
+
+  <summary>Prometheus Stand Alone VS Operator     Prometheus Stand Alone VS Operator 비교     1. Standalone Prometheus vs Prometheus Operator 기반 비교표                 항목       Standalone Prometheus       Prometheus Operator 기반                       설치 난이도       단순 (Deployment + ConfigMap)       복잡 (CRD, Helm chart 필요)                 초기 러닝커브       낮음       높음                 구조 이해도       직관적       내부 리소스 많아 복...</summary>
 
   </entry>
 

@@ -30,24 +30,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="minikube 스터디" />
+<meta property="og:title" content="Prometheus Stand Alone VS Operator 비교" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="minikube 스터디" />
-<meta property="og:description" content="minikube 스터디" />
-<link rel="canonical" href="https://monoanono.github.io/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/" />
-<meta property="og:url" content="https://monoanono.github.io/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/" />
+<meta name="description" content="Prometheus Stand Alone VS Operator" />
+<meta property="og:description" content="Prometheus Stand Alone VS Operator" />
+<link rel="canonical" href="https://monoanono.github.io/posts/Prometheus-Stand-Alone-VS-Operator-%EB%B9%84%EA%B5%90/" />
+<meta property="og:url" content="https://monoanono.github.io/posts/Prometheus-Stand-Alone-VS-Operator-%EB%B9%84%EA%B5%90/" />
 <meta property="og:site_name" content="Yoon. Pumpkin 기술 블로그" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2026-02-26T17:20:00+09:00" />
+<meta property="article:published_time" content="2026-03-03T13:37:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="minikube 스터디" />
+<meta property="twitter:title" content="Prometheus Stand Alone VS Operator 비교" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-02-26T17:20:00+09:00","datePublished":"2026-02-26T17:20:00+09:00","description":"minikube 스터디","headline":"minikube 스터디","mainEntityOfPage":{"@type":"WebPage","@id":"https://monoanono.github.io/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/"},"url":"https://monoanono.github.io/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-03-03T13:37:00+09:00","datePublished":"2026-03-03T13:37:00+09:00","description":"Prometheus Stand Alone VS Operator","headline":"Prometheus Stand Alone VS Operator 비교","mainEntityOfPage":{"@type":"WebPage","@id":"https://monoanono.github.io/posts/Prometheus-Stand-Alone-VS-Operator-%EB%B9%84%EA%B5%90/"},"url":"https://monoanono.github.io/posts/Prometheus-Stand-Alone-VS-Operator-%EB%B9%84%EA%B5%90/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>minikube 스터디 | Yoon. Pumpkin 기술 블로그
+  <title>Prometheus Stand Alone VS Operator 비교 | Yoon. Pumpkin 기술 블로그
   </title>
 
   <!--
@@ -425,7 +425,7 @@
         
           
             
-              <span>minikube 스터디</span>
+              <span>Prometheus Stand Alone VS Operator 비교</span>
             
 
           
@@ -493,1231 +493,6 @@
 
 
 
-  
-  
-
-  
-    
-      
-      
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-
-  
-
 
 <!-- Add header for code snippets -->
 
@@ -1762,6 +537,17 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -1769,6 +555,82 @@
   
   
 
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
   
 
   
@@ -1797,7 +659,7 @@
 
 <article class="px-1" data-toc="true">
   <header>
-    <h1 data-toc-skip>minikube 스터디</h1>
+    <h1 data-toc-skip>Prometheus Stand Alone VS Operator 비교</h1>
     
 
     <div class="post-meta text-muted">
@@ -1814,13 +676,13 @@
 
 <time
   
-  data-ts="1772094000"
+  data-ts="1772512620"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Feb 26, 2026
+  Mar  3, 2026
 </time>
 
       </span>
@@ -1869,9 +731,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="233 words"
+  title="624 words"
 >
-  <em>1 min</em> read</span>
+  <em>3 min</em> read</span>
 
         </div>
       </div>
@@ -1880,7 +742,7 @@
 
   
     <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
-      <span class="label text-truncate">minikube 스터디</span>
+      <span class="label text-truncate">Prometheus Stand Alone VS Operator 비교</span>
       <button type="button" class="toc-trigger btn me-1">
         <i class="fa-solid fa-list-ul fa-fw"></i>
       </button>
@@ -1893,7 +755,7 @@
 
     <dialog id="toc-popup" class="p-0">
       <div class="header d-flex flex-row align-items-center justify-content-between">
-        <div class="label text-truncate py-2 ms-4">minikube 스터디</div>
+        <div class="label text-truncate py-2 ms-4">Prometheus Stand Alone VS Operator 비교</div>
         <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
           <i class="fas fa-close"></i>
         </button>
@@ -1903,146 +765,151 @@
   
 
   <div class="content">
-    <h1 id="minikube-스터디">minikube 스터디</h1>
+    <h1 id="prometheus-stand-alone-vs-operator">Prometheus Stand Alone VS Operator</h1>
 
 <ul>
-  <li>다운로드 링크 : https://github.com/kubernetes/minikube/releases/latest/download/minikube-installer.exe</li>
-</ul>
-
-<h2 id="1-minikube-설치"><span class="me-2">1. minikube 설치</span><a href="#1-minikube-설치" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<ul>
-  <li>Hyper-V 활성화
-    <ul>
-      <li>관리자 권한으로 CMD 에서 명령어 실행</li>
-    </ul>
-  </li>
-</ul>
-
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V
-</pre></td></tr></tbody></table></code></div></div>
-<p><a href="https://github.com/user-attachments/assets/0a92f25f-8003-49fe-8f2c-524b40fa0215" class="popup img-link shimmer"><img width="643" height="181" alt="Image" src="https://github.com/user-attachments/assets/0a92f25f-8003-49fe-8f2c-524b40fa0215" loading="lazy"></a></p>
-
-<hr />
-
-<ul>
-  <li>minikube  버전 확인
-    <div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>minikube version
-</pre></td></tr></tbody></table></code></div>    </div>
-    <p><a href="https://github.com/user-attachments/assets/3ee25b2e-a392-4667-af86-666f202e5952" class="popup img-link shimmer"><img width="406" height="67" alt="Image" src="https://github.com/user-attachments/assets/3ee25b2e-a392-4667-af86-666f202e5952" loading="lazy"></a></p>
-  </li>
+  <li>Prometheus Stand Alone VS Operator 비교</li>
 </ul>
 
 <hr />
 
-<ul>
-  <li>minikube 시작 (Hyper-V)</li>
-</ul>
+<h2 id="1-standalone-prometheus-vs-prometheus-operator-기반-비교표"><span class="me-2">1. Standalone Prometheus vs Prometheus Operator 기반 비교표</span><a href="#1-standalone-prometheus-vs-prometheus-operator-기반-비교표" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>minikube start --driver=hyperv
-</pre></td></tr></tbody></table></code></div></div>
-<p><a href="https://github.com/user-attachments/assets/04ee04fb-fe66-4279-ada7-408d20c2ab77" class="popup img-link shimmer"><img width="838" height="188" alt="Image" src="https://github.com/user-attachments/assets/04ee04fb-fe66-4279-ada7-408d20c2ab77" loading="lazy"></a>
-<a href="https://github.com/user-attachments/assets/70f62f1e-dde9-45bc-903b-b1a9d696c198" class="popup img-link shimmer"><img width="960" height="515" alt="Image" src="https://github.com/user-attachments/assets/70f62f1e-dde9-45bc-903b-b1a9d696c198" loading="lazy"></a>
-<a href="https://github.com/user-attachments/assets/7ccbe3a3-4d18-4471-867f-60494e351a0e" class="popup img-link shimmer"><img width="950" height="354" alt="Image" src="https://github.com/user-attachments/assets/7ccbe3a3-4d18-4471-867f-60494e351a0e" loading="lazy"></a></p>
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>항목</th>
+      <th>Standalone Prometheus</th>
+      <th>Prometheus Operator 기반</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>설치 난이도</td>
+      <td>단순 (Deployment + ConfigMap)</td>
+      <td>복잡 (CRD, Helm chart 필요)</td>
+    </tr>
+    <tr>
+      <td>초기 러닝커브</td>
+      <td>낮음</td>
+      <td>높음</td>
+    </tr>
+    <tr>
+      <td>구조 이해도</td>
+      <td>직관적</td>
+      <td>내부 리소스 많아 복잡</td>
+    </tr>
+    <tr>
+      <td>K8s Service Discovery</td>
+      <td>가능 (kubernetes_sd_configs 사용)</td>
+      <td>기본 제공</td>
+    </tr>
+    <tr>
+      <td>Pod/Service 모니터링</td>
+      <td>가능 (annotation + relabel 직접 작성)</td>
+      <td>ServiceMonitor / PodMonitor 사용</td>
+    </tr>
+    <tr>
+      <td>멀티 네임스페이스 수집</td>
+      <td>가능 (설정 필요)</td>
+      <td>기본적으로 자동 처리</td>
+    </tr>
+    <tr>
+      <td>설정 변경 방식</td>
+      <td>prometheus.yml 직접 수정</td>
+      <td>CRD 리소스 선언형 관리</td>
+    </tr>
+    <tr>
+      <td>재시작 필요 여부</td>
+      <td>설정 변경 시 reload 필요</td>
+      <td>재시작 불필요</td>
+    </tr>
+    <tr>
+      <td>확장성 (HA 구성)</td>
+      <td>수동 구성 필요</td>
+      <td>비교적 간단</td>
+    </tr>
+    <tr>
+      <td>Alertmanager 클러스터링</td>
+      <td>수동 구성</td>
+      <td>기본 지원</td>
+    </tr>
+    <tr>
+      <td>GitOps 친화성</td>
+      <td>보통</td>
+      <td>매우 높음</td>
+    </tr>
+    <tr>
+      <td>대규모 클러스터 적합성</td>
+      <td>관리 어려움</td>
+      <td>적합</td>
+    </tr>
+    <tr>
+      <td>디버깅 난이도</td>
+      <td>단순</td>
+      <td>상대적으로 복잡</td>
+    </tr>
+    <tr>
+      <td>소규모 테스트 환경</td>
+      <td>매우 적합</td>
+      <td>다소 과함</td>
+    </tr>
+    <tr>
+      <td>엔터프라이즈 환경</td>
+      <td>제한적</td>
+      <td>일반적으로 채택</td>
+    </tr>
+    <tr>
+      <td>멀티 클러스터 확장 (Thanos 등)</td>
+      <td>직접 구성</td>
+      <td>연동 용이</td>
+    </tr>
+  </tbody>
+</table></div>
 
 <hr />
 
+<h2 id="2-standalone-prometheus"><span class="me-2">2. Standalone Prometheus</span><a href="#2-standalone-prometheus" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h3 id="21-장점"><span class="me-2">2.1. 장점</span><a href="#21-장점" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <ul>
-  <li>minikube 상태 확인
-    <div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>minikube status
-</pre></td></tr></tbody></table></code></div>    </div>
-    <p><a href="https://github.com/user-attachments/assets/9361f6aa-7635-4ae5-823a-10a61b11dd9c" class="popup img-link shimmer"><img width="221" height="127" alt="Image" src="https://github.com/user-attachments/assets/9361f6aa-7635-4ae5-823a-10a61b11dd9c" loading="lazy"></a>
-<a href="https://github.com/user-attachments/assets/0f06496a-d221-43b0-bcd9-5c61d206e9af" class="popup img-link shimmer"><img width="203" height="52" alt="Image" src="https://github.com/user-attachments/assets/0f06496a-d221-43b0-bcd9-5c61d206e9af" loading="lazy"></a></p>
-  </li>
+  <li>구조가 단순함 (최소 구성 기준 Deployment + ConfigMap 만으로 구성 가능)</li>
+  <li>prometheus.yml 직접 관리 (디버깅 쉬움)</li>
+  <li>소규모 환경, 테스트환경에 유리 (특정 환경에 종속적이지 않음)</li>
+</ul>
+
+<h3 id="22-단점"><span class="me-2">2.2. 단점</span><a href="#22-단점" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<ul>
+  <li>새 서비스 추가 등 설정 변경 시 마다 prometheus 재시작 필수</li>
+  <li>감시대상이 늘어 날수록 관리포인트 증가 (매번 수동 설정 및 재시작 필수)</li>
+  <li>운영 자동화에 불리</li>
+</ul>
+
+<h3 id="23-매트릭-수집-흐름"><span class="me-2">2.3. 매트릭 수집 흐름</span><a href="#23-매트릭-수집-흐름" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<ul>
+  <li>Application -&gt; Exporter -&gt; Prometheus</li>
 </ul>
 
 <hr />
 
+<h2 id="3--prometheus-operator"><span class="me-2">3.  Prometheus Operator</span><a href="#3--prometheus-operator" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h3 id="31--장점"><span class="me-2">3.1.  장점</span><a href="#31--장점" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <ul>
-  <li>minikube 접속하기
-    <ul>
-      <li>로컬(윈도우) -&gt; minikube 접속</li>
-    </ul>
-  </li>
+  <li>K8s 친화적 (K8s Custom Resource Definition CRD로 모니터링 대상 자동 감지)</li>
+  <li>Helm 배포 가능 (내부적으로 배포 해야 할 리소스가 많으나, Helm chart로 한번에 배포)</li>
+  <li>운영 자동화에 유리, 대규모 운영환경에 적합 (선언형 설정으로 GitOps 친화적)</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>minikube ssh
-</pre></td></tr></tbody></table></code></div></div>
-<p><a href="https://github.com/user-attachments/assets/b178016b-c971-4df4-aef5-20a23b8385c7" class="popup img-link shimmer"><img width="452" height="157" alt="Image" src="https://github.com/user-attachments/assets/b178016b-c971-4df4-aef5-20a23b8385c7" loading="lazy"></a></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre>- Hyper-V 콘솔에서 접속하기
-  - 가상컴퓨터 -&gt; 우클릭 -&gt; 연결
-  - OS 계정 : root (초기 설정 패스워드 미입력, 계정명 입력하고 엔터 시 접속 가능) &lt;img width="959" height="516" alt="Image" src="https://github.com/user-attachments/assets/56281db3-72da-4af0-8bc2-033f6224e658" /&gt; &lt;img width="638" height="505" alt="Image" src="https://github.com/user-attachments/assets/4c002352-41f3-400e-8585-90128b91a722" /&gt;
-</pre></td></tr></tbody></table></code></div></div>
-
-<hr />
-
-<h2 id="2-kubectl-설치"><span class="me-2">2. kubectl 설치</span><a href="#2-kubectl-설치" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h3 id="32-단점"><span class="me-2">3.2. 단점</span><a href="#32-단점" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <ul>
-  <li>로컬(윈도우) 에 kubectl 설치 (26.02.25 부 최신 버전 : kubectl 1.35.0 )</li>
-  <li>참고 : https://kubernetes.io/ko/docs/tasks/tools/install-kubectl-windows/
-<a href="https://github.com/user-attachments/assets/2f684349-7cc9-4bdd-a0c2-160a65be844e" class="popup img-link shimmer"><img width="781" height="759" alt="Image" src="https://github.com/user-attachments/assets/2f684349-7cc9-4bdd-a0c2-160a65be844e" loading="lazy"></a></li>
+  <li>Standalone Prometheus 대비 리소스 구조가 복잡 (Helm Chart 의존성 높음)</li>
+  <li>Standalone Prometheus 대비 디버깅 난이도 높음 (구조가 복잡하여 확인해야 할 지점이 많다.)</li>
+  <li>K8s 환경에서만 사용 할 수 있다.</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>curl.exe -LO "https://dl.k8s.io/release/v1.35.0/bin/windows/amd64/kubectl.exe"
-</pre></td></tr></tbody></table></code></div></div>
-<p><a href="https://github.com/user-attachments/assets/c988a388-b210-457f-b090-baf4a1db9794" class="popup img-link shimmer"><img width="733" height="83" alt="Image" src="https://github.com/user-attachments/assets/c988a388-b210-457f-b090-baf4a1db9794" loading="lazy"></a></p>
-
+<h3 id="33-매트릭-수집-흐름"><span class="me-2">3.3. 매트릭 수집 흐름</span><a href="#33-매트릭-수집-흐름" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <ul>
-  <li>minikube 설치 시 함께 포함된 kubectl.exe 를 CMD에서 구동 해도 된다.
-<a href="https://github.com/user-attachments/assets/6246f57b-8d55-448f-82c0-021c267d1c41" class="popup img-link shimmer"><img width="959" height="514" alt="Image" src="https://github.com/user-attachments/assets/6246f57b-8d55-448f-82c0-021c267d1c41" loading="lazy"></a></li>
+  <li>Application -&gt; Exporter -&gt; Servicemonitor(K8s CRD) -&gt; Prometheus</li>
 </ul>
-
-<hr />
-
-<ul>
-  <li>kubectl 버전 확인</li>
-</ul>
-
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>kubectl version --client
-</pre></td></tr></tbody></table></code></div></div>
-<p><a href="https://github.com/user-attachments/assets/ee580512-80c4-4af9-9bf5-902467bcac23" class="popup img-link shimmer"><img width="312" height="66" alt="Image" src="https://github.com/user-attachments/assets/ee580512-80c4-4af9-9bf5-902467bcac23" loading="lazy"></a></p>
-
-<hr />
-
-<ul>
-  <li>kubectl 명령어로 minikube cluster ip 확인</li>
-</ul>
-
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>kubectl describe service
-</pre></td></tr></tbody></table></code></div></div>
-<p><a href="https://github.com/user-attachments/assets/da8b6e86-508d-41cc-a9f5-07f285b4cc67" class="popup img-link shimmer"><img width="377" height="300" alt="Image" src="https://github.com/user-attachments/assets/da8b6e86-508d-41cc-a9f5-07f285b4cc67" loading="lazy"></a>
-<a href="https://github.com/user-attachments/assets/50ebf65f-5a14-4e45-a2d5-70bc3915e348" class="popup img-link shimmer"><img width="639" height="500" alt="Image" src="https://github.com/user-attachments/assets/50ebf65f-5a14-4e45-a2d5-70bc3915e348" loading="lazy"></a>
-<a href="https://github.com/user-attachments/assets/b8f606aa-8f52-44ad-a466-2f5674c1d330" class="popup img-link shimmer"><img width="1065" height="403" alt="Image" src="https://github.com/user-attachments/assets/b8f606aa-8f52-44ad-a466-2f5674c1d330" loading="lazy"></a></p>
 
   </div>
 
@@ -2053,7 +920,7 @@
         <i class="far fa-folder-open fa-fw me-1"></i>
         
           <a href="/categories/blog/">Blog</a>,
-          <a href="/categories/kubernetes/">Kubernetes</a>
+          <a href="/categories/prometheus/">Prometheus</a>
       </div>
     
 
@@ -2063,14 +930,19 @@
         <i class="fa fa-tags fa-fw me-1"></i>
         
           <a
-            href="/tags/kubernetes/"
+            href="/tags/prometheus/"
             class="post-tag no-text-decoration"
-          >Kubernetes</a>
+          >Prometheus</a>
         
           <a
             href="/tags/devops/"
             class="post-tag no-text-decoration"
           >DevOps</a>
+        
+          <a
+            href="/tags/kubernetes/"
+            class="post-tag no-text-decoration"
+          >Kubernetes</a>
         
       </div>
     
@@ -2106,21 +978,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=minikube%20%EC%8A%A4%ED%84%B0%EB%94%94%20-%20Yoon.%20Pumpkin%20%EA%B8%B0%EC%88%A0%20%EB%B8%94%EB%A1%9C%EA%B7%B8&url=https%3A%2F%2Fmonoanono.github.io%2Fposts%2Fminikube-%25EC%258A%25A4%25ED%2584%25B0%25EB%2594%2594%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Prometheus%20Stand%20Alone%20VS%20Operator%20%EB%B9%84%EA%B5%90%20-%20Yoon.%20Pumpkin%20%EA%B8%B0%EC%88%A0%20%EB%B8%94%EB%A1%9C%EA%B7%B8&url=https%3A%2F%2Fmonoanono.github.io%2Fposts%2FPrometheus-Stand-Alone-VS-Operator-%25EB%25B9%2584%25EA%25B5%2590%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=minikube%20%EC%8A%A4%ED%84%B0%EB%94%94%20-%20Yoon.%20Pumpkin%20%EA%B8%B0%EC%88%A0%20%EB%B8%94%EB%A1%9C%EA%B7%B8&u=https%3A%2F%2Fmonoanono.github.io%2Fposts%2Fminikube-%25EC%258A%25A4%25ED%2584%25B0%25EB%2594%2594%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Prometheus%20Stand%20Alone%20VS%20Operator%20%EB%B9%84%EA%B5%90%20-%20Yoon.%20Pumpkin%20%EA%B8%B0%EC%88%A0%20%EB%B8%94%EB%A1%9C%EA%B7%B8&u=https%3A%2F%2Fmonoanono.github.io%2Fposts%2FPrometheus-Stand-Alone-VS-Operator-%25EB%25B9%2584%25EA%25B5%2590%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=https%3A%2F%2Fmonoanono.github.io%2Fposts%2Fminikube-%25EC%258A%25A4%25ED%2584%25B0%25EB%2594%2594%2F&text=minikube%20%EC%8A%A4%ED%84%B0%EB%94%94%20-%20Yoon.%20Pumpkin%20%EA%B8%B0%EC%88%A0%20%EB%B8%94%EB%A1%9C%EA%B7%B8" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fmonoanono.github.io%2Fposts%2FPrometheus-Stand-Alone-VS-Operator-%25EB%25B9%2584%25EA%25B5%2590%2F&text=Prometheus%20Stand%20Alone%20VS%20Operator%20%EB%B9%84%EA%B5%90%20-%20Yoon.%20Pumpkin%20%EA%B8%B0%EC%88%A0%20%EB%B8%94%EB%A1%9C%EA%B7%B8" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -2393,19 +1265,19 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
   
 
   
@@ -2431,34 +1303,6 @@
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
-      
-        <article class="col">
-          <a href="/posts/K8S-%EC%8A%A4%ED%84%B0%EB%94%94/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1772094000"
-  data-df="ll"
-  
->
-  Feb 26, 2026
-</time>
-
-              <h4 class="pt-0 my-2">Kubernetes 스터디</h4>
-              <div class="text-muted">
-                <p>K8S 스터디     참고 :  Minikube 활용 K8s 스터디            https://subicura.com/k8s/prepare/       https://subicura.com/k8s/guide/#%E1%84%80%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3           내용 정리      ...</p>
-              </div>
-            </div>
-          </a>
-        </article>
       
         <article class="col">
           <a href="/posts/Prometheus-%EC%8A%A4%ED%84%B0%EB%94%94/" class="post-preview card h-100">
@@ -2489,7 +1333,7 @@
         </article>
       
         <article class="col">
-          <a href="/posts/Prometheus-Stand-Alone-VS-Operator-%EB%B9%84%EA%B5%90/" class="post-preview card h-100">
+          <a href="/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -2501,16 +1345,44 @@
 
 <time
   
-  data-ts="1772512620"
+  data-ts="1772094000"
   data-df="ll"
   
 >
-  Mar  3, 2026
+  Feb 26, 2026
 </time>
 
-              <h4 class="pt-0 my-2">Prometheus Stand Alone VS Operator 비교</h4>
+              <h4 class="pt-0 my-2">minikube 스터디</h4>
               <div class="text-muted">
-                <p>Prometheus Stand Alone VS Operator     Prometheus Stand Alone VS Operator 비교     1. Standalone Prometheus vs Prometheus Operator 기반 비교표                 항목       Standalone Prometheus       Promethe...</p>
+                <p>minikube 스터디     다운로드 링크 : https://github.com/kubernetes/minikube/releases/latest/download/minikube-installer.exe   1. minikube 설치     Hyper-V 활성화            관리자 권한으로 CMD 에서 명령어 실행           DISM /...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/K8S-%EC%8A%A4%ED%84%B0%EB%94%94/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1772094000"
+  data-df="ll"
+  
+>
+  Feb 26, 2026
+</time>
+
+              <h4 class="pt-0 my-2">Kubernetes 스터디</h4>
+              <div class="text-muted">
+                <p>K8S 스터디     참고 :  Minikube 활용 K8s 스터디            https://subicura.com/k8s/prepare/       https://subicura.com/k8s/guide/#%E1%84%80%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3           내용 정리      ...</p>
               </div>
             </div>
           </a>
@@ -2531,21 +1403,21 @@
 
   
     <a
-      href="/posts/K8S-%EC%8A%A4%ED%84%B0%EB%94%94/"
+      href="/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>Kubernetes 스터디</p>
+      <p>minikube 스터디</p>
     </a>
   
 
   
     <a
-      href="/posts/Prometheus-Stand-Alone-VS-Operator-%EB%B9%84%EA%B5%90/"
+      href="/posts/Prometheus-%EC%8A%A4%ED%84%B0%EB%94%94/"
       class="btn btn-outline-primary"
       aria-label="Newer"
     >
-      <p>Prometheus Stand Alone VS Operator 비교</p>
+      <p>Prometheus 스터디</p>
     </a>
   
 </nav>
