@@ -30,24 +30,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="About" />
+<meta property="og:title" content="[AWS] EKS vs ECS" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Add Markdown syntax content to file _tabs/about.md and it will show up on this page." />
-<meta property="og:description" content="Add Markdown syntax content to file _tabs/about.md and it will show up on this page." />
-<link rel="canonical" href="https://monoanono.github.io/about/" />
-<meta property="og:url" content="https://monoanono.github.io/about/" />
+<meta name="description" content="AWS EKS vs ECS" />
+<meta property="og:description" content="AWS EKS vs ECS" />
+<link rel="canonical" href="https://monoanono.github.io/posts/AWS-EKS-vs-ECS/" />
+<meta property="og:url" content="https://monoanono.github.io/posts/AWS-EKS-vs-ECS/" />
 <meta property="og:site_name" content="Yoon. Pumpkin 기술 블로그" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2026-03-03T15:11:17+09:00" />
+<meta property="article:published_time" content="2026-03-03T15:09:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="About" />
+<meta property="twitter:title" content="[AWS] EKS vs ECS" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","dateModified":"2026-03-03T15:11:17+09:00","datePublished":"2026-03-03T15:11:17+09:00","description":"Add Markdown syntax content to file _tabs/about.md and it will show up on this page.","headline":"About","name":"Yoon. Pumpkin","sameAs":["https://twitter.com/username","https://github.com/username"],"url":"https://monoanono.github.io/about/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-03-03T15:09:00+09:00","datePublished":"2026-03-03T15:09:00+09:00","description":"AWS EKS vs ECS","headline":"[AWS] EKS vs ECS","mainEntityOfPage":{"@type":"WebPage","@id":"https://monoanono.github.io/posts/AWS-EKS-vs-ECS/"},"url":"https://monoanono.github.io/posts/AWS-EKS-vs-ECS/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>About | Yoon. Pumpkin 기술 블로그
+  <title>[AWS] EKS vs ECS | Yoon. Pumpkin 기술 블로그
   </title>
 
   <!--
@@ -105,6 +105,8 @@
 
   <!-- 3rd-party Dependencies -->
 
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.36.4/dist/tocbot.min.css">
   
 
   
@@ -178,9 +180,37 @@
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.18/dayjs.min.js,npm/dayjs@1.11.18/locale/en.js,npm/dayjs@1.11.18/plugin/relativeTime.js,npm/dayjs@1.11.18/plugin/localizedFormat.js"></script>
 
 
 
@@ -188,11 +218,15 @@
 
 
 
-<script defer src="/assets/js/dist/page.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
 <!-- Pageviews -->
+
+  
+
+  
 
 
 
@@ -256,7 +290,7 @@
         </li>
         <!-- .nav-item -->
       
-        <li class="nav-item active">
+        <li class="nav-item">
           <a href="/about/" class="nav-link">
             <i class="fa-fw fas fa-info-circle"></i>
             
@@ -381,8 +415,10 @@
           
         
           
+        
+          
             
-              <span>About</span>
+              <span>[AWS] EKS vs ECS</span>
             
 
           
@@ -396,7 +432,7 @@
     </button>
 
     <div id="topbar-title">
-      About
+      Post
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -450,6 +486,405 @@
 
 
 
+  
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+
+  
+
 
 <!-- Add header for code snippets -->
 
@@ -489,20 +924,214 @@
 
 
 
-<article class="px-1">
+
+
+
+
+
+
+<article class="px-1" data-toc="false">
+  <header>
+    <h1 data-toc-skip>[AWS] EKS vs ECS</h1>
+    
+
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Posted
+        <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
   
+  data-ts="1772518140"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Mar  3, 2026
+</time>
+
+      </span>
+
+      <!-- lastmod date -->
+      
+
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
+
+          By
+
+          <em>
+            
+              <a href="https://twitter.com/username">Yoon. Pumpkin</a>
+            
+          </em>
+        </span>
+
+        <div>
+          <!-- pageviews -->
+          
+
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
+
+
+
+<!-- words per minute -->
+
+
+
+
+
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="4 words"
+>
+  <em>1 min</em> read</span>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+
+  <div class="content">
+    <h1 id="aws-eks-vs-ecs">AWS EKS vs ECS</h1>
+
+<p><a href="https://github.com/user-attachments/assets/502de8fb-4172-4388-93f7-5bbca39f9bea" class="popup img-link shimmer"><img src="https://github.com/user-attachments/assets/502de8fb-4172-4388-93f7-5bbca39f9bea" alt="Image" loading="lazy"></a></p>
+
+<p><a href="https://github.com/user-attachments/assets/20c16f5e-ea72-447f-a93c-97424591c919" class="popup img-link shimmer"><img width="2048" height="1962" alt="Image" src="https://github.com/user-attachments/assets/20c16f5e-ea72-447f-a93c-97424591c919" loading="lazy"></a></p>
+
+<p><a href="https://github.com/user-attachments/assets/3c908a29-9182-43c9-8e9d-d8dbc859ffc9" class="popup img-link shimmer"><img width="2048" height="2044" alt="Image" src="https://github.com/user-attachments/assets/3c908a29-9182-43c9-8e9d-d8dbc859ffc9" loading="lazy"></a></p>
+
+<p><a href="https://github.com/user-attachments/assets/1b8b976b-75a8-4d19-97f6-cc4ec8805be1" class="popup img-link shimmer"><img width="2048" height="1809" alt="Image" src="https://github.com/user-attachments/assets/1b8b976b-75a8-4d19-97f6-cc4ec8805be1" loading="lazy"></a></p>
+
+<p><a href="https://github.com/user-attachments/assets/b37a4a36-1199-489a-98d5-df9462184d52" class="popup img-link shimmer"><img width="2048" height="539" alt="Image" src="https://github.com/user-attachments/assets/b37a4a36-1199-489a-98d5-df9462184d52" loading="lazy"></a></p>
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/categories/blog/">Blog</a>,
+          <a href="/categories/aws/">AWS</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/tags/aws/"
+            class="post-tag no-text-decoration"
+          >AWS</a>
+        
+          <a
+            href="/tags/devops/"
+            class="post-tag no-text-decoration"
+          >DevOps</a>
+        
+          <a
+            href="/tags/cloud/"
+            class="post-tag no-text-decoration"
+          >Cloud</a>
+        
+      </div>
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Share</span>
+  <span class="share-icons">
     
     
-    <h1 class="dynamic-title">
-      About
-    </h1>
-    <div class="content">
-      <blockquote class="prompt-tip">
-  <p>Add Markdown syntax content to file <code class="language-plaintext filepath highlighter-rouge">_tabs/about.md</code> and it will show up on this page.</p>
-</blockquote>
+    
+
+    
+
+      
+
+      <a href="https://twitter.com/intent/tweet?text=[AWS]%20EKS%20vs%20ECS%20-%20Yoon.%20Pumpkin%20%EA%B8%B0%EC%88%A0%20%EB%B8%94%EB%A1%9C%EA%B7%B8&url=https%3A%2F%2Fmonoanono.github.io%2Fposts%2FAWS-EKS-vs-ECS%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.facebook.com/sharer/sharer.php?title=[AWS]%20EKS%20vs%20ECS%20-%20Yoon.%20Pumpkin%20%EA%B8%B0%EC%88%A0%20%EB%B8%94%EB%A1%9C%EA%B7%B8&u=https%3A%2F%2Fmonoanono.github.io%2Fposts%2FAWS-EKS-vs-ECS%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
+      </a>
+    
+
+      
+
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fmonoanono.github.io%2Fposts%2FAWS-EKS-vs-ECS%2F&text=[AWS]%20EKS%20vs%20ECS%20-%20Yoon.%20Pumpkin%20%EA%B8%B0%EC%88%A0%20%EB%B8%94%EB%A1%9C%EA%B7%B8" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
+      </a>
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
+</div>
 
     </div>
-  
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
 </article>
 
 
@@ -840,12 +1469,324 @@
             </div>
 
             
+              
+              
+
+
+
+
+
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">Further Reading</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/AWS-EKS-%EC%8A%A4%ED%84%B0%EB%94%94/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1772517900"
+  data-df="ll"
+  
+>
+  Mar  3, 2026
+</time>
+
+              <h4 class="pt-0 my-2">[AWS] EKS 스터디</h4>
+              <div class="text-muted">
+                <p>AWS EKS 스터디</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/NCP-GitHub-Action-%EC%9C%BC%EB%A1%9C-NCP-Object-Storage%EC%97%90-%EC%97%85%EB%A1%9C%EB%93%9C/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1772517360"
+  data-df="ll"
+  
+>
+  Mar  3, 2026
+</time>
+
+              <h4 class="pt-0 my-2">[NCP] GitHub Action 으로 NCP Object Storage에 업로드</h4>
+              <div class="text-muted">
+                <p>GitHub Action 으로 NCP Object Storage에 업로드  1. 목적     NCP 서비스 배포를 위한 CI/CD 파이프라인 구성   NCP Auto Scaling Group 기반 환경, Kubernetes / 컨테이너 환경이 아님   NCP Container Registry 대신 Object Storage에 빌드 결과물 저장   NC...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/NCP-Source-Deploy-%EB%B0%B0%ED%8F%AC-(%EC%84%9C%EB%B2%84,-ASG)/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1772516640"
+  data-df="ll"
+  
+>
+  Mar  3, 2026
+</time>
+
+              <h4 class="pt-0 my-2">[NCP] Source Deploy 배포 (서버, ASG)</h4>
+              <div class="text-muted">
+                <p>NCP Source Deploy 배포 (서버, ASG)  1. 목적     NCP 서비스 배포를 위한 CI/CD 파이프라인 구성   NCP Auto Scaling Group 기반 환경, Kubernetes / 컨테이너 환경이 아님   NCP Container Registry 대신 Object Storage에 빌드 결과물 저장   NCP Auto Sca...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <a
+      href="/posts/NCP-NCP-CLI-%ED%99%9C%EC%9A%A9-%EC%9D%BC%EC%9D%BC-%EC%84%9C%EB%B2%84%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%B1%EC%97%85-%EC%84%A4%EC%A0%95/"
+      class="btn btn-outline-primary"
+      aria-label="Older"
+    >
+      <p>[NCP] NCP CLI 활용 일일 서버이미지 백업 설정</p>
+    </a>
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
+  
+</nav>
+
             
 
             <!-- The Footer -->
@@ -1203,6 +2144,11 @@
     
 
     <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
 
     
 
