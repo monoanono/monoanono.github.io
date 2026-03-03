@@ -2,7 +2,7 @@
 title: "[NCP] Source Deploy 배포 (서버, ASG)"
 date: 2026-03-03 14:44:00 +0900
 categories: [Blog, NCP]
-tags: [NCP, DevOps, CI/CD, Cloud]
+tags: [GitHub, NCP, DevOps, CI/CD, Cloud]
 ---
 
 

@@ -2,7 +2,7 @@
 title: "[NCP] GitHub Action 으로 NCP Object Storage에 업로드"
 date: 2026-03-03 14:56:00 +0900
 categories: [Blog, NCP]
-tags: [NCP, DevOps, CI/CD, Cloud]
+tags: [GitHub, NCP, DevOps, CI/CD, Cloud]
 ---
 
 

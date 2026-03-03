@@ -2,7 +2,7 @@
 title: "[AWS] Github Action CI 설정 (AWS ECR, AWS OIDC)"
 date: 2026-03-03 15:13:00 +0900
 categories: [Blog, AWS]
-tags: [AWS, DevOps, Kubernetes, CI/CD, Cloud]
+tags: [GitHub, AWS, DevOps, Kubernetes, CI/CD, Cloud]
 ---
 
 # Github Action CI 설정 (AWS ECR, AWS OIDC)
