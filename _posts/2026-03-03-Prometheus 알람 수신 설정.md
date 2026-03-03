@@ -14,8 +14,6 @@ tags: \[Prometheus, DevOps, Kubernetes]
 
 
 
-
-
 \# Prometheus 알람 수신 설정
 
 
@@ -249,4 +247,6 @@ kubectl apply -f cpu-test-alert.yaml
 <img width="726" height="48" alt="Image" src="https://github.com/user-attachments/assets/4a9c3998-2396-4b54-a57b-35b35811a780" />
 
 <img width="579" height="93" alt="Image" src="https://github.com/user-attachments/assets/f1a28126-88c6-477e-b3d6-71b73db28139" />
+
+
 
