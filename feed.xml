@@ -4,7 +4,7 @@
   <id>https://monoanono.github.io/</id>
   <title>Yoon. Pumpkin 기술 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-03-03T14:57:59+09:00</updated>
+  <updated>2026-03-03T15:05:34+09:00</updated>
   <author>
     <name>Yoon. Pumpkin</name>
     <uri>https://monoanono.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>[NCP] NCP CLI 활용 일일 서버이미지 백업 설정</title>
+    <link href="https://monoanono.github.io/posts/NCP-NCP-CLI-%ED%99%9C%EC%9A%A9-%EC%9D%BC%EC%9D%BC-%EC%84%9C%EB%B2%84%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%B1%EC%97%85-%EC%84%A4%EC%A0%95/" rel="alternate" type="text/html" title="[NCP] NCP CLI 활용 일일 서버이미지 백업 설정" />
+    <published>2026-03-03T14:56:00+09:00</published>
+  
+    <updated>2026-03-03T14:56:00+09:00</updated>
+  
+    <id>https://monoanono.github.io/posts/NCP-NCP-CLI-%ED%99%9C%EC%9A%A9-%EC%9D%BC%EC%9D%BC-%EC%84%9C%EB%B2%84%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%B1%EC%97%85-%EC%84%A4%EC%A0%95/</id>
+    <content type="text/html" src="https://monoanono.github.io/posts/NCP-NCP-CLI-%ED%99%9C%EC%9A%A9-%EC%9D%BC%EC%9D%BC-%EC%84%9C%EB%B2%84%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%B1%EC%97%85-%EC%84%A4%EC%A0%95/" />
+    <author>
+      <name>Yoon. Pumpkin</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="NCP" />
+    
+  
+
+  <summary>NCP CLI 활용 일일 서버이미지 백업 설정    1. 개요    Ncloud 자체 데일리 스케줄 백업 서비스를 지원하지 않음   NCP CLI 명령어를 사용하여 서버 이미지를 생성            NCP CLI 명령어 기반 백업 이미지 생성 스크립트 구성       Crontab 설정 하여  데일리 백업 진행, 3일 경과 이미지 삭제       설치 필요 - NCP CLI, JSON processor jq           명령어 구동용 Batch 서버하나에서 다중 NCP Account 내의 서버 이미지 생성 가능            서버 이미지 생성을 위해 각 NCP Account 별로 권한있는 Sub Account의 API Key를 기반으로 NCP CLI Profile 설정하여 명령어 사용 ...</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>Prometheus 알람 수신 설정     개요 : Prometheus 알람을 Slack 채널 알람 수신   흐름 : Prometheus -&amp;gt; AlertManager -&amp;gt; Slack     1. AlertManager 설정 수정         알람 발송 할 Slack webhook URL 추가 value 파일 적용            prometheus-value.yaml 파일 수정 ```yaml prometheus:   service: type: NodePort          # Prometheus UI를 NodePort로 외부 접속 가능하게 설정                               # (minikube IP:NodePort 로 접근 가능)      grafana:   ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Prometheus Operator 설치</title>
-    <link href="https://monoanono.github.io/posts/Prometheus-Operator-%EC%84%A4%EC%B9%98/" rel="alternate" type="text/html" title="Prometheus Operator 설치" />
-    <published>2026-03-03T14:24:00+09:00</published>
-  
-    <updated>2026-03-03T14:24:00+09:00</updated>
-  
-    <id>https://monoanono.github.io/posts/Prometheus-Operator-%EC%84%A4%EC%B9%98/</id>
-    <content type="text/html" src="https://monoanono.github.io/posts/Prometheus-Operator-%EC%84%A4%EC%B9%98/" />
-    <author>
-      <name>Yoon. Pumpkin</name>
-    </author>
-
-  
-    
-    <category term="Blog" />
-    
-    <category term="Prometheus" />
-    
-  
-
-  <summary>Prometheus Operator 설치     참조 : https://wanbaep.tistory.com/21     1. helm 설치 choco install kubernetes-helm      2. Prometheus helm repo 추가    Prometheus helm repo 추가     helm repo add prometheus-community https://prometheus-community.github.io/helm-charts            helm repo 업데이트     helm repo update              3. K8s Cluster 설정    본 테스트 는 minikube 에서 진행함   3.1 namespace 생성 kubectl create n...</summary>
 
   </entry>
 
