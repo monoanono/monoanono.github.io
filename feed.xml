@@ -4,16 +4,16 @@
   <id>https://monoanono.github.io/</id>
   <title>Yoon. Pumpkin 기술 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-03-03T13:27:03+09:00</updated>
+  <updated>2026-03-03T13:31:18+09:00</updated>
   <author>
-    <name>your_full_name</name>
+    <name>Yoon. Pumpkin</name>
     <uri>https://monoanono.github.io/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="https://monoanono.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
     href="https://monoanono.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
-  <rights> © 2026 your_full_name </rights>
+  <rights> © 2026 Yoon. Pumpkin </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
@@ -29,7 +29,7 @@
     <id>https://monoanono.github.io/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/</id>
     <content type="text/html" src="https://monoanono.github.io/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/" />
     <author>
-      <name>your_full_name</name>
+      <name>Yoon. Pumpkin</name>
     </author>
 
   
@@ -55,7 +55,7 @@
     <id>https://monoanono.github.io/posts/K8S-%EC%8A%A4%ED%84%B0%EB%94%94/</id>
     <content type="text/html" src="https://monoanono.github.io/posts/K8S-%EC%8A%A4%ED%84%B0%EB%94%94/" />
     <author>
-      <name>your_full_name</name>
+      <name>Yoon. Pumpkin</name>
     </author>
 
   
@@ -81,7 +81,7 @@
     <id>https://monoanono.github.io/posts/my-first-post/</id>
     <content type="text/html" src="https://monoanono.github.io/posts/my-first-post/" />
     <author>
-      <name>your_full_name</name>
+      <name>Yoon. Pumpkin</name>
     </author>
 
   
