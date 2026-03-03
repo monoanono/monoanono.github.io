@@ -4,7 +4,7 @@
   <id>https://monoanono.github.io/</id>
   <title>Yoon. Pumpkin 기술 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-03-03T14:38:28+09:00</updated>
+  <updated>2026-03-03T14:43:48+09:00</updated>
   <author>
     <name>Yoon. Pumpkin</name>
     <uri>https://monoanono.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>[NCP] NKS 클러스터 구성하기</title>
+    <link href="https://monoanono.github.io/posts/NCP-NKS-%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="[NCP] NKS 클러스터 구성하기" />
+    <published>2026-03-03T14:41:00+09:00</published>
+  
+    <updated>2026-03-03T14:41:00+09:00</updated>
+  
+    <id>https://monoanono.github.io/posts/NCP-NKS-%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0/</id>
+    <content type="text/html" src="https://monoanono.github.io/posts/NCP-NKS-%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0/" />
+    <author>
+      <name>Yoon. Pumpkin</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="NCP" />
+    
+  
+
+  <summary>NKS 클러스터 구성 하기  1. 테스트 환경 구성도     2. 인프라 구성  2.1 VPC   2.2 Subnet   2.3 VPC Routing Table             2.3 NAT GateWay       3. NKS Cluster     • NKS Cluster를 프라이빗 환경에서 구성 하는 경우 노드가 프라이빗 VM으로 생성 되므로 노드 내 파드 들이 외부 통신이 필요한 경우 NAT 구성이 필수(Private VM NAT 설정 과 동일)   3.1 NKS 클러스터 노드 풀(≒EKS 노드그룹) 설정   생성할 노드 수를 지정 하고 +추가 눌러서 노드풀에 설정한다.     • 클러스터 정보에서 확인 가능한 사항은 노드 스펙의 총합으로 표기된다. (-&amp;gt; vCPU 2EA, Mem 8G...</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>Prometheus Stand Alone VS Operator     Prometheus Stand Alone VS Operator 비교     1. Standalone Prometheus vs Prometheus Operator 기반 비교표                 항목       Standalone Prometheus       Prometheus Operator 기반                       설치 난이도       단순 (Deployment + ConfigMap)       복잡 (CRD, Helm chart 필요)                 초기 러닝커브       낮음       높음                 구조 이해도       직관적       내부 리소스 많아 복...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>minikube 스터디</title>
-    <link href="https://monoanono.github.io/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/" rel="alternate" type="text/html" title="minikube 스터디" />
-    <published>2026-02-26T17:20:00+09:00</published>
-  
-    <updated>2026-02-26T17:20:00+09:00</updated>
-  
-    <id>https://monoanono.github.io/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/</id>
-    <content type="text/html" src="https://monoanono.github.io/posts/minikube-%EC%8A%A4%ED%84%B0%EB%94%94/" />
-    <author>
-      <name>Yoon. Pumpkin</name>
-    </author>
-
-  
-    
-    <category term="Blog" />
-    
-    <category term="Kubernetes" />
-    
-  
-
-  <summary>minikube 스터디     다운로드 링크 : https://github.com/kubernetes/minikube/releases/latest/download/minikube-installer.exe   1. minikube 설치     Hyper-V 활성화            관리자 권한으로 CMD 에서 명령어 실행           DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V         minikube  버전 확인     minikube version                     minikube 시작 (Hyper-V)   minikube start --driver=hyperv           minikube 상태...</summary>
 
   </entry>
 
