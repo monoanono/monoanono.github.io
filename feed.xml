@@ -4,7 +4,7 @@
   <id>https://monoanono.github.io/</id>
   <title>Yoon. Pumpkin 기술 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-03-03T15:11:17+09:00</updated>
+  <updated>2026-03-03T15:14:50+09:00</updated>
   <author>
     <name>Yoon. Pumpkin</name>
     <uri>https://monoanono.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>[AWS] Github Action CI 설정 (AWS ECR, AWS OIDC)</title>
+    <link href="https://monoanono.github.io/posts/AWS-Github-Action-CI-%EC%84%A4%EC%A0%95-(AWS-ECR,-AWS-OIDC)/" rel="alternate" type="text/html" title="[AWS] Github Action CI 설정 (AWS ECR, AWS OIDC)" />
+    <published>2026-03-03T15:13:00+09:00</published>
+  
+    <updated>2026-03-03T15:13:00+09:00</updated>
+  
+    <id>https://monoanono.github.io/posts/AWS-Github-Action-CI-%EC%84%A4%EC%A0%95-(AWS-ECR,-AWS-OIDC)/</id>
+    <content type="text/html" src="https://monoanono.github.io/posts/AWS-Github-Action-CI-%EC%84%A4%EC%A0%95-(AWS-ECR,-AWS-OIDC)/" />
+    <author>
+      <name>Yoon. Pumpkin</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="AWS" />
+    
+  
+
+  <summary>Github Action CI 설정 (AWS ECR, AWS OIDC)  1. 구성도   2. 목적    AWS EKS 내 서비스 배포를 위한 CI/CD 파이프라인 구성     3. Continuous Integration (CI) CI - Github Action (Github Private Repository 컨테이너 이미지 빌드 하여 AWS ECR에 푸시 ECR 로그인 관련 OIDC 토큰 발행 하여 로그인)   Github main 브랜치 내 frontend / backend 워크플로우 단위 구분     Github → Github Action → AWS ECR   3.1 Github Action WorkFlow yaml name: Frontend Request Workflow           ...</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>GitHub Action 으로 NCP Object Storage에 업로드  1. 목적     NCP 서비스 배포를 위한 CI/CD 파이프라인 구성   NCP Auto Scaling Group 기반 환경, Kubernetes / 컨테이너 환경이 아님   NCP Container Registry 대신 Object Storage에 빌드 결과물 저장   NCP Auto Scaling Group 배포 자동화를 위해 Source Deploy 필수 사용   Source Deploy 빌드 참조 대상은 Object Storage / Source Build만 가능     2. 전체 구성 개요  NCP 측 설정     GitHub Actions WorkFlow Bot 용 Sub Account 생성 및 API 키 발급   ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[NCP] Source Deploy 배포 (서버, ASG)</title>
-    <link href="https://monoanono.github.io/posts/NCP-Source-Deploy-%EB%B0%B0%ED%8F%AC-(%EC%84%9C%EB%B2%84,-ASG)/" rel="alternate" type="text/html" title="[NCP] Source Deploy 배포 (서버, ASG)" />
-    <published>2026-03-03T14:44:00+09:00</published>
-  
-    <updated>2026-03-03T14:44:00+09:00</updated>
-  
-    <id>https://monoanono.github.io/posts/NCP-Source-Deploy-%EB%B0%B0%ED%8F%AC-(%EC%84%9C%EB%B2%84,-ASG)/</id>
-    <content type="text/html" src="https://monoanono.github.io/posts/NCP-Source-Deploy-%EB%B0%B0%ED%8F%AC-(%EC%84%9C%EB%B2%84,-ASG)/" />
-    <author>
-      <name>Yoon. Pumpkin</name>
-    </author>
-
-  
-    
-    <category term="Blog" />
-    
-    <category term="NCP" />
-    
-  
-
-  <summary>NCP Source Deploy 배포 (서버, ASG)  1. 목적     NCP 서비스 배포를 위한 CI/CD 파이프라인 구성   NCP Auto Scaling Group 기반 환경, Kubernetes / 컨테이너 환경이 아님   NCP Container Registry 대신 Object Storage에 빌드 결과물 저장   NCP Auto Scaling Group 배포 자동화를 위해 Source Deploy 필수 사용   Source Deploy 빌드 참조 대상은 Object Storage / Source Build만 가능     2. 전체 구성 개요    Github → Github Action → NCP Object Storage → NCP SourceDeploy → NCP Server(ASG...</summary>
 
   </entry>
 
