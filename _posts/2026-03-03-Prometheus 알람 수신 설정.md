@@ -1,22 +1,41 @@
 ---
+
 title: "Prometheus 알람 수신 설정"
+
 date: 2026-03-03 14:26:00 +0900
-categories: [Blog, Prometheus]
-tags: [Prometheus, DevOps, Kubernetes]
----
 
+categories: \[Blog, Prometheus]
 
-# Prometheus 알람 수신 설정
-
-  - 개요 : Prometheus 알람을 Slack 채널 알람 수신
-  - 흐름 : Prometheus -> AlertManager -> Slack
+tags: \[Prometheus, DevOps, Kubernetes]
 
 ---
-## 1. AlertManager 설정 수정
-  - 알람 발송 할 Slack webhook URL 추가 value 파일 적용
+
+
+
+
+
+\# Prometheus 알람 수신 설정
+
+
+
+&nbsp; - 개요 : Prometheus 알람을 Slack 채널 알람 수신
+
+&nbsp; - 흐름 : Prometheus -> AlertManager -> Slack
+
+
+
+---
+
+\## 1. AlertManager 설정 수정
+
+&nbsp; - 알람 발송 할 Slack webhook URL 추가 value 파일 적용
+
 <img width="787" height="761" alt="Image" src="https://github.com/user-attachments/assets/b82018b1-1c3f-4ca6-b152-f9046606932d" />
 
-  - prometheus-value.yaml 파일 수정
+
+
+&nbsp; - prometheus-value.yaml 파일 수정
+
 ```yaml
 
 prometheus:
@@ -99,33 +118,54 @@ alertmanager:
 
 ```
 
+
+
 ---
 
-## 2. helm 반영
 
-  - helm 릴리즈 이름 확인
+
+\## 2. helm 반영
+
+
+
+&nbsp; - helm 릴리즈 이름 확인
+
 ```helm
 
 helm list -A
 
 ```
+
 <img width="945" height="97" alt="Image" src="https://github.com/user-attachments/assets/f82e3307-f6e7-45c8-83e4-2186f9c280ff" />
 
-  - helm 업그레이드로 설정 적용
+
+
+&nbsp; - helm 업그레이드로 설정 적용
+
 ```helm
 
 helm upgrade wb-prometheus prometheus-community/kube-prometheus-stack -f prometheus-value.yaml -n monitoring
 
 ```
+
 <img width="943" height="530" alt="Image" src="https://github.com/user-attachments/assets/e8cfb3e2-7dbc-4126-9bd6-a37eff7f9507" />
+
+
+
 
 
 ---
 
-## 3. 알람 수신 확인
 
-### 3.1 알람 발생 테스트 yaml 적용
-  - cpu-test-alert.yaml
+
+\## 3. 알람 수신 확인
+
+
+
+\### 3.1 알람 발생 테스트 yaml 적용
+
+&nbsp; - cpu-test-alert.yaml
+
 ```yaml
 
 apiVersion: monitoring.coreos.com/v1
@@ -167,25 +207,44 @@ spec:
 &nbsp;           description: "This is a manual Slack test alert."
 
 ```
+
 <img width="427" height="409" alt="Image" src="https://github.com/user-attachments/assets/8bfe7e64-b0a2-4e1a-91a6-c8db6894d8bd" />
 
 
-### 3.2 Alert rule 적용
+
+
+
+\### 3.2 Alert rule 적용
+
 ```yaml
 
 kubectl apply -f cpu-test-alert.yaml
 
 ```
+
 <img width="486" height="47" alt="Image" src="https://github.com/user-attachments/assets/ca904ac0-0c4d-48ea-97ae-7641a8361c56" />
 
-  - rule 적용 확인
+
+
+&nbsp; - rule 적용 확인
+
 <img width="956" height="1031" alt="Image" src="https://github.com/user-attachments/assets/70ac46ba-9069-4081-82fe-3211cec4137a" />
 
 
-  - Slack 알람 수신 확인
+
+
+
+&nbsp; - Slack 알람 수신 확인
+
 <img width="597" height="88" alt="Image" src="https://github.com/user-attachments/assets/141933f8-4b3e-4980-98ff-b6dd2e87640f" />
 
 
-  - Alert rule 삭제
+
+
+
+&nbsp; - Alert rule 삭제
+
 <img width="726" height="48" alt="Image" src="https://github.com/user-attachments/assets/4a9c3998-2396-4b54-a57b-35b35811a780" />
+
 <img width="579" height="93" alt="Image" src="https://github.com/user-attachments/assets/f1a28126-88c6-477e-b3d6-71b73db28139" />
+
