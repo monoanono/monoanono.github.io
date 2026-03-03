@@ -4,7 +4,7 @@
   <id>https://monoanono.github.io/</id>
   <title>Yoon. Pumpkin 기술 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-03-03T14:43:48+09:00</updated>
+  <updated>2026-03-03T14:46:06+09:00</updated>
   <author>
     <name>Yoon. Pumpkin</name>
     <uri>https://monoanono.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>[NCP] Source Deploy 배포 (서버, ASG)</title>
+    <link href="https://monoanono.github.io/posts/NCP-Source-Deploy-%EB%B0%B0%ED%8F%AC-(%EC%84%9C%EB%B2%84,-ASG)/" rel="alternate" type="text/html" title="[NCP] Source Deploy 배포 (서버, ASG)" />
+    <published>2026-03-03T14:44:00+09:00</published>
+  
+    <updated>2026-03-03T14:44:00+09:00</updated>
+  
+    <id>https://monoanono.github.io/posts/NCP-Source-Deploy-%EB%B0%B0%ED%8F%AC-(%EC%84%9C%EB%B2%84,-ASG)/</id>
+    <content type="text/html" src="https://monoanono.github.io/posts/NCP-Source-Deploy-%EB%B0%B0%ED%8F%AC-(%EC%84%9C%EB%B2%84,-ASG)/" />
+    <author>
+      <name>Yoon. Pumpkin</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="NCP" />
+    
+  
+
+  <summary>NCP Source Deploy 배포 (서버, ASG)  1. 목적     NCP 서비스 배포를 위한 CI/CD 파이프라인 구성   NCP Auto Scaling Group 기반 환경, Kubernetes / 컨테이너 환경이 아님   NCP Container Registry 대신 Object Storage에 빌드 결과물 저장   NCP Auto Scaling Group 배포 자동화를 위해 Source Deploy 필수 사용   Source Deploy 빌드 참조 대상은 Object Storage / Source Build만 가능     2. 전체 구성 개요    Github → Github Action → NCP Object Storage → NCP SourceDeploy → NCP Server(ASG...</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>Prometheus 스터디     참고 :            https://prometheus.io/docs/introduction/overview/       https://willseungh0.tistory.com/193             1. Prometeus 아키텍처     2. Prometeus 구성 요소  ### 2.1. Exporter / Job    모니터링 대상의 Metric 데이터를 수집하고 중앙 집중 서버인 Prometheus Server가 Metrics 데이터를 가져 갈 수 있도록 API Endpoint 을 제공            node-exporter: 노드의 CPU, Memory, Network bandwidth 등 metrics 정보를 수집       jmx-expo...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Prometheus Stand Alone VS Operator 비교</title>
-    <link href="https://monoanono.github.io/posts/Prometheus-Stand-Alone-VS-Operator-%EB%B9%84%EA%B5%90/" rel="alternate" type="text/html" title="Prometheus Stand Alone VS Operator 비교" />
-    <published>2026-03-03T13:37:00+09:00</published>
-  
-    <updated>2026-03-03T13:37:00+09:00</updated>
-  
-    <id>https://monoanono.github.io/posts/Prometheus-Stand-Alone-VS-Operator-%EB%B9%84%EA%B5%90/</id>
-    <content type="text/html" src="https://monoanono.github.io/posts/Prometheus-Stand-Alone-VS-Operator-%EB%B9%84%EA%B5%90/" />
-    <author>
-      <name>Yoon. Pumpkin</name>
-    </author>
-
-  
-    
-    <category term="Blog" />
-    
-    <category term="Prometheus" />
-    
-  
-
-  <summary>Prometheus Stand Alone VS Operator     Prometheus Stand Alone VS Operator 비교     1. Standalone Prometheus vs Prometheus Operator 기반 비교표                 항목       Standalone Prometheus       Prometheus Operator 기반                       설치 난이도       단순 (Deployment + ConfigMap)       복잡 (CRD, Helm chart 필요)                 초기 러닝커브       낮음       높음                 구조 이해도       직관적       내부 리소스 많아 복...</summary>
 
   </entry>
 
