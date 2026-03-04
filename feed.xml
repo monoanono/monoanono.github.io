@@ -4,7 +4,7 @@
   <id>https://monoanono.github.io/</id>
   <title>Yoon. Pumpkin 기술 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2026-03-04T09:49:01+09:00</updated>
+  <updated>2026-03-04T10:22:51+09:00</updated>
   <author>
     <name>Yoon. Pumpkin</name>
     <uri>https://monoanono.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>[AWS] ArgoCD CD 설정 (Github, EKS)</title>
+    <link href="https://monoanono.github.io/posts/AWS-ArgoCD-CD-%EC%84%A4%EC%A0%95-(Github,-EKS)/" rel="alternate" type="text/html" title="[AWS] ArgoCD CD 설정 (Github, EKS)" />
+    <published>2026-03-04T10:19:00+09:00</published>
+  
+    <updated>2026-03-04T10:19:00+09:00</updated>
+  
+    <id>https://monoanono.github.io/posts/AWS-ArgoCD-CD-%EC%84%A4%EC%A0%95-(Github,-EKS)/</id>
+    <content type="text/html" src="https://monoanono.github.io/posts/AWS-ArgoCD-CD-%EC%84%A4%EC%A0%95-(Github,-EKS)/" />
+    <author>
+      <name>Yoon. Pumpkin</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="AWS" />
+    
+  
+
+  <summary>ArgoCD CD 설정 (Github, EKS)  1. 구성도   2. 목적    AWS EKS 내 서비스 배포를 위한 CI/CD 파이프라인 구성     3. Continuous Deployment, (CD)  CD - Github를 AWS EKS 클러스터 내 ArgoCD가 감시 변경점 반영 시 AWS ECR 신규빌드이미지 기반으로 서비스 배포   Github main 브랜치 내 frontend / backend 워크플로우 단위 구분     Github → ** ArgoCD(AWS EKS Cluster) ** → AWS ECR → AWS EKS Cluster      4. ArgoCD 설치  helm upgrade --install argo레포이름 . -f values.yaml --namespace a...</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>AWS EKS 스터디</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[NCP] GitHub Action 으로 NCP Object Storage에 업로드</title>
-    <link href="https://monoanono.github.io/posts/NCP-GitHub-Action-%EC%9C%BC%EB%A1%9C-NCP-Object-Storage%EC%97%90-%EC%97%85%EB%A1%9C%EB%93%9C/" rel="alternate" type="text/html" title="[NCP] GitHub Action 으로 NCP Object Storage에 업로드" />
-    <published>2026-03-03T14:56:00+09:00</published>
-  
-    <updated>2026-03-03T14:56:00+09:00</updated>
-  
-    <id>https://monoanono.github.io/posts/NCP-GitHub-Action-%EC%9C%BC%EB%A1%9C-NCP-Object-Storage%EC%97%90-%EC%97%85%EB%A1%9C%EB%93%9C/</id>
-    <content type="text/html" src="https://monoanono.github.io/posts/NCP-GitHub-Action-%EC%9C%BC%EB%A1%9C-NCP-Object-Storage%EC%97%90-%EC%97%85%EB%A1%9C%EB%93%9C/" />
-    <author>
-      <name>Yoon. Pumpkin</name>
-    </author>
-
-  
-    
-    <category term="Blog" />
-    
-    <category term="NCP" />
-    
-  
-
-  <summary>GitHub Action 으로 NCP Object Storage에 업로드  1. 목적     NCP 서비스 배포를 위한 CI/CD 파이프라인 구성   NCP Auto Scaling Group 기반 환경, Kubernetes / 컨테이너 환경이 아님   NCP Container Registry 대신 Object Storage에 빌드 결과물 저장   NCP Auto Scaling Group 배포 자동화를 위해 Source Deploy 필수 사용   Source Deploy 빌드 참조 대상은 Object Storage / Source Build만 가능     2. 전체 구성 개요  NCP 측 설정     GitHub Actions WorkFlow Bot 용 Sub Account 생성 및 API 키 발급   ...</summary>
 
   </entry>
 
