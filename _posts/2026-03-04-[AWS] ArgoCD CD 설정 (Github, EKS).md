@@ -11,7 +11,7 @@ tags: [GitHub, AWS, DevOps, Kubernetes, CI/CD, Cloud]
 
 
 ## 1. 구성도
-<img width="766" height="336" alt="Image" src="https://github.com/user-attachments/assets/5aa64a59-fc9a-4e58-901b-c3cdfc9129e1" />
+![image](https://private-user-images.githubusercontent.com/122866359/551936164-5aa64a59-fc9a-4e58-901b-c3cdfc9129e1.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzI2Njk2ODcsIm5iZiI6MTc3MjY2OTM4NywicGF0aCI6Ii8xMjI4NjYzNTkvNTUxOTM2MTY0LTVhYTY0YTU5LWZjOWEtNGU1OC05MDFiLWMzY2RmYzkxMjllMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMwNVQwMDA5NDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mYWRkMTI2YzkyYWY3MTIwMjg5MTU2YzRlZjlkOTEzODA0N2ViMTdhNDZmNWIwNjk4OWIyODg2MmZkYTgwMDY2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.DtWhhmOVkNYESRueH5A63CoDo6Ga1iTANjmue7nssxg)
 
 ## 2. 목적
 - AWS EKS 내 서비스 배포를 위한 **CI/CD 파이프라인** 구성
