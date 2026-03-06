@@ -25,7 +25,7 @@ tags: [GitHub, AWS, DevOps, Kubernetes, CI/CD, Cloud]
   Github main 브랜치 내 frontend / backend 워크플로우 단위 구분
 
 - Github → ** ArgoCD(AWS EKS Cluster) ** → AWS ECR → AWS EKS Cluster
-![image](https://private-user-images.githubusercontent.com/122866359/551937672-df42d232-3abf-4c8a-9482-df538a0250c6.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzI2NzEyODcsIm5iZiI6MTc3MjY3MDk4NywicGF0aCI6Ii8xMjI4NjYzNTkvNTUxOTM3NjcyLWRmNDJkMjMyLTNhYmYtNGM4YS05NDgyLWRmNTM4YTAyNTBjNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMwNVQwMDM2MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04YjY0MWU0OGY3MzJiOWNkZWUwNGM4OGNlMWZlYmY2ZjNlNTM2YmQwYjA1NGM2OGY2NDNmZTQ2MDZiODYxZmYwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.1_lFD7yayeoU4FQn6LRGb7ogAsAYTl5pWg4bYRBdmDE)
+![image](https://github.com/user-attachments/assets/df42d232-3abf-4c8a-9482-df538a0250c6)
 
 ---
 
